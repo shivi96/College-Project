@@ -1,0 +1,105 @@
+<html>
+<head>
+  <title>
+    Desi Book Store
+  </title>
+  <link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <link rel="stylesheet" type="text/css" href="Style1.css">
+</head>
+<body>
+  <div class="outTransparent">
+    <p>
+      The Desi Book Store
+    </p>
+  </div>
+  <p class="links">
+    <a href="HomePage.html">
+      Home
+    </a>|
+    <a href="AboutUs.html">
+      About Us
+    </a>|
+    <a href="SignUp.html">
+      Sign Up
+    </a>|
+    <a href="LogIn.html">
+      LogOut
+    </a>|
+    <a href="ContactUs.html">
+      Contact Us
+    </a>
+  </p>
+  <div class="relative">
+    <marquee>
+      Special Discount on Latest Books, Magazine, and Fabulous Novels!!! Buy Now!!!
+    </marquee>
+    <marquee style="color:#0000FF">
+      Offers available on payment with Debit and Credit Card !!! Hurry | Limited Stock @ 50% OFF
+    </marquee>
+  </div>
+  <div class="catalogue">
+    <p>
+      <h2>CATEGORIES</h2>
+      <hr>Academic<hr>Action & Adventure<hr>Biographies & True Accounts<hr>Business, Investing and Management<hr>Children's Books
+      <hr>Comics & Manga<hr>Computing & Internet<hr>Crime, Thriller & Mystery<hr>Entarance Exam<hr>Science Fiction<hr>Health & Personal Development
+      <hr>History & Politics<hr>Hobies, Home & Lifestyle<hr>Indian Writing<hr>Language & Linguistics<hr>Literature & Fiction<hr>Religious Books
+      <hr>Science & technology<hr>Sports & Games
+    </p>
+  </div>
+  <div class="catalogue" style="position: absolute; top:235px; width:1000px;background-color:rgba(225,225,225,0);">
+    <div class="form">
+      <h2>Confirm Your Order </h2><p>
+        <h3>Confirm your Order using Credit Card</h3>
+      </p>
+      <form action="Final.html">
+        <label for="Name">Enter Name on the Card</label><br />
+        <input type="text" name="Name" placeholder="Enter Name on Card"/><br /><br />
+
+        <label for="CardNumber">Enter Card Number</label><br />
+        <input type="number" value="CardNumber" max="9999" min="1000" style="width:18%;" placeholder="XXXX" />-
+        <input type="number" value="CardNumber" max="9999" min="1000" style="width:18%;" placeholder="XXXX" />-
+        <input type="number" value="CardNumber" max="9999" min="1000" style="width:18%;" placeholder="XXXX"/>-
+        <input type="number" value="CardNumber" max="9999" min="1000" style="width:18%;" placeholder="XXXX" /><br /><br />
+
+        <label for="type">Type</label><br /><br />
+        <input type="radio" name="type" />Visa &nbsp;
+        <input type="radio" name="type" />Master Card &nbsp;
+        <input type="radio" name="type" />Maestro &nbsp;
+        <input type="radio" name="type" />American Express<br /><br />
+
+        <label for="Expiry">Expiry Date</label><br />
+        <select name='expireMM' style="width:45%;">
+          <option value=''>Month</option>
+          <option value='01'>January</option>
+          <option value='02'>February</option>
+          <option value='03'>March</option>
+          <option value='04'>April</option>
+          <option value='05'>May</option>
+          <option value='06'>June</option>
+          <option value='07'>July</option>
+          <option value='08'>August</option>
+          <option value='09'>September</option>
+          <option value='10'>October</option>
+          <option value='11'>November</option>
+          <option value='12'>December</option>
+        </select>
+        <select name='expireYY' style="width:45%;">
+          <option value=''>Year</option>
+          <option value='17'>2017</option>
+          <option value='18'>2018</option>
+          <option value='19'>2019</option>
+          <option value='20'>2020</option>
+          <option value='21'>2021</option>
+          <option value='22'>2022</option>
+        </select><br /><br />
+
+        <label for="CVV">CVV number</label><br />
+        <input type="number" max="999" min="100" /><br />
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+</html>

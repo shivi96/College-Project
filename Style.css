@@ -1,0 +1,107 @@
+body {
+  background: url(bookbg1.jpg) fixed no-repeat center;
+  background-size: cover;
+}
+div.outTransparent{
+  font-weight: bold;
+  border-radius: 25px;
+  background-size: 90px 90px;
+  text-shadow: 5px 5px 5px #000;
+  text-align: center;
+  color: #FFFE00;
+  font-size: 300%;
+  font-family: algerian;
+  background: rgba(128, 128, 128, 0.7);
+}
+div.relative{
+  position: relative;
+  top: 20px;
+}
+marquee{
+  color: #00FF00;
+  border-radius: 5px;
+  background: rgba(255, 112, 67, 0.5);
+  font-size: 25px;
+  display: inline-block;
+  position: center;
+  font-family: algerian;
+}
+.links {
+  background: rgba(128, 128, 128, 0.7);
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  font-family: cursive;
+  font-size: 20px;
+  top: 70px;
+}
+a:link{
+  color: #00C105;
+}
+a:visited{
+  color: #00C105;
+}
+a:hover{
+  color: #00FF7F;
+}
+hr{
+  display: block;
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+  border-style: inset;
+  border-width: 0.5px;
+}
+.catalogue{
+  border-radius: 20px;
+  padding-left: 10px;
+  text-align: left;
+  font-family: verdana;
+  font-size: 20px;
+  margin: 2rem;
+  display: inline-block;
+  background: rgba(225,225,225,0.6);
+  position: relative;
+  top: 50px;
+  width: 350px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.3);
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
